@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #f5f5dc, #d2b48c);
+            color: #5d4037;
+        }
+        header {
+            background: #8b4513;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        marquee {
+            font-size: 18px;
+            color: #fff;
+            background-color: #d2691e;
+            padding: 10px 0;
+            margin: 0;
+        }
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            background-color: rgba(255, 248, 220, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            max-width: 800px;
+        }
+        h2 {
+            color: #8b4513;
+            margin-bottom: 10px;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .content {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .content div {
+            flex: 1;
+            min-width: 250px;
+        }
+        .image-section {
+            text-align: center;
+        }
+        .image-section img {
+            width: 150px;
+            border-radius: 50%;
+            margin: 10px auto;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #8b4513;
+            color: white;
+            position: static;
+            margin-top: 20px;
+        }
+        .social-links a {
+            text-decoration: none;
+            margin: 0 10px;
+            color: #ffdab9;
+            font-size: 18px;
+        }
+        .social-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to my first webpage!</h1>
+    </header>
+    
+    <marquee behavior="scroll" direction="left">Hi, I’m Keerti Damani, and this is a glimpse into my life, passions, and projects!</marquee>
+    
+    <section class="image-section">
+        <h2>Hello, I'm Keerti! (22BBS0174)</h2>
+        <p>A tech enthusiast, programmer, and lifelong learner.</p>
+    </section>
+    
+    <section>
+        <h2>Introduction</h2>
+        <p>I am a B.Tech student at VIT Vellore, specializing in Computer Science with a focus on Business Systems. My journey is fueled by a passion for technology and innovation, constantly seeking to explore new horizons in the tech world.</p>
+    </section>
+    
+    <section>
+        <h2>My Skills</h2>
+        <div class="content">
+            <div>
+                <h3>Programming Languages</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>C, C++</li>
+                    <li>Java</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Other Skills</h3>
+                <ul>
+                    <li>Web Development</li>
+                    <li>Data Science</li>
+                    <li>SuiteScripts</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <h2>My Interests</h2>
+        <p>I enjoy exploring emerging technologies, contributing to tech communities, and being part of exciting projects. As Vice Chair of the French Literary Association, I actively contribute to cultural events that bring students together.</p>
+        <img src="tech_image.png" alt="Interest-related image">
+    </section>
+    
+    <section>
+        <h2>Fun Facts</h2>
+        <p>📚 I love reading books on AI and ML.<br>🌍 I'm learning French and exploring diverse cultures.<br>🎨 In my downtime, I enjoy designing interfaces and working on creative projects.</p>
+    </section>
+    
+    <footer>
+        <p>Contact me: <a href="mailto:keertidamani@example.com">keertidamani@example.com</a></p>
+        <div class="social-links">
+            <a href="https://in.linkedin.com/in/keertidamani">LinkedIn</a> | <a href="https://github.com/keertidamani">GitHub</a> | <a href="#">Portfolio</a>
+        </div>
+    </footer>
+</body>
+</html>
